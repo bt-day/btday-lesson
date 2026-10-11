@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+header {
+    width: min(100%, 1200px);
+    height: 160px;
+    margin-inline: auto;
+    background-color: blue;
+
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    width: min(100%, 1200px);
+    height: auto;
+    margin-inline: auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.a01 {
+    flex: 1 1 32%;
+    height: 500px;
+    background-color: red;
+
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+.a02 {
+    flex: 1 1 64%;
+    height: 500px;
+    background-color: red;
+
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+
+footer {
+    width: min(100%, 1200px);
+    height: 160px;
+    background-color: pink;
+    margin-inline: auto;
+    margin-top: 20px;
+
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* ================responsive web design area ==============
+============================================================ */
+
+
+
+@media (max-width:640px) {
+
+    .a01 {
+        flex-basis: 100%;
+    }
+
+    .a02 {
+        flex-basis: 100%;
+    }
+
+}
